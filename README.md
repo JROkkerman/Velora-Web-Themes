@@ -13,7 +13,7 @@ The theme format is implemented in Velora Music today. Receipts, Finance and oth
 3. Copy that folder to your application's theme plugin directory, keeping **velora-plugin.json** at the theme folder's root.
 4. Restart the application and choose the theme in Settings.
 
-In **Velora Music**, install under **<private-data>/plugins/themes/<id>/**. Docker uses **/var/lib/velora/private/plugins/themes/<id>/** on the persistent private-data volume. The application user (UID 10001 in Docker) must be able to read the files. Copy all folders under **themes/** to install the whole collection; do not nest the repository itself as a theme.
+In **Velora Music**, install under `<private-data>/plugins/themes/<id>/`. Docker uses `/var/lib/velora/private/plugins/themes/<id>/` on the persistent private-data volume. The application user (UID 10001 in Docker) must be able to read the files. Copy all folders under **themes/** to install the whole collection; do not nest the repository itself as a theme.
 
 A valid installed theme with the same ID overrides its shipped copy. Removing the installed copy and restarting restores the shipped version. Updates are explicit folder replacements; there is no automatic GitHub download or in-app installer yet.
 
