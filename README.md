@@ -2,7 +2,7 @@
 
 Shared themes for the **Velora Web** ecosystem: **Velora Music**, **Velora Receipts**, **Velora Finance** and future Velora web applications.
 
-All 47 themes live in this one repository. Each theme keeps its own folder, manifest, stable ID and version, so you can install or update one theme without the others. **Light, Dark and Device** remain built-in application choices.
+All 48 themes live in this one repository. Each theme keeps its own folder, manifest, stable ID and version, so you can install or update one theme without the others. **Light, Dark and Device** remain built-in application choices.
 
 The theme format is implemented in Velora Music today. Receipts, Finance and other web apps can reuse the same palettes by implementing [Velora Web theme API 1](THEME_API.md); their integration is independent of this repository.
 
@@ -61,6 +61,7 @@ A valid installed theme with the same ID overrides its shipped copy. Removing th
 | [Plum](themes/plum/) | Dark | 1.0.0 |
 | [Porcelain](themes/porcelain/) | Light | 1.0.0 |
 | [Rosewood](themes/rosewood/) | Dark | 1.0.0 |
+| [Ruby](themes/ruby/) | Dark | 1.0.0 |
 | [Ruby Night](themes/ruby-night/) | Dark | 1.0.0 |
 | [Saffron](themes/saffron/) | Dark | 1.0.0 |
 | [Sage](themes/sage/) | Light | 1.0.0 |
